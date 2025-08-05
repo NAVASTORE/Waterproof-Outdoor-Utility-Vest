@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waterproof Outdoor Utility Vest | FASHION.ID</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        body {
+            font-family: 'Roboto', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #36454f 0%, #000000 100%);
+        }
+        .gold-accent {
+            color: #d4af37;
+        }
+        .gold-bg {
+            background-color: #d4af37;
+        }
+        .hover-gold:hover {
+            color: #d4af37;
+        }
+        .hover-bg-gold:hover {
+            background-color: #d4af37;
+        }
+        .transition-all {
+            transition: all 0.3s ease;
+        }
+        .testimonial-img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            cursor: pointer;
+        }
+        .profile-img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+        }
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        .lightbox-content {
+            max-width: 90%;
+            max-height: 90%;
+        }
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        .social-proof {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 999;
+            animation: slideIn 0.5s forwards;
+        }
+        @keyframes slideIn {
+            from { transform: translateX(100%); }
+            to { transform: translateX(0); }
+        }
+        @keyframes slideOut {
+            from { transform: translateX(0); }
+            to { transform: translateX(100%); }
+        }
+        .product-gallery img {
+            transition: transform 0.3s ease;
+        }
+        .product-gallery img:hover {
+            transform: scale(1.05);
+        }
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        .sticky-cta.show {
+            transform: translateY(0);
+        }
+        .price-original {
+            text-decoration: line-through;
+        }
+        .star-rating {
+            color: #ffd700;
+        }
+        .carousel {
+            scroll-behavior: smooth;
+        }
+        .carousel::-webkit-scrollbar {
+            display: none;
+        }
+        .carousel-item {
+            flex: 0 0 auto;
+            width: 100%;
+        }
+        @media (min-width: 640px) {
+            .carousel-item {
+                width: 50%;
+            }
+        }
+        @media (min-width: 1024px) {
+            .carousel-item {
+                width: 33.33%;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Social Proof Popup -->
+    <div id="socialProof" class="social-proof hidden">
+        <div class="bg-white rounded-lg shadow-lg p-4 w-64 relative overflow-hidden border-l-4 border-gold-500">
+            <div class="flex items-center">
+                <div class="rounded-full bg-gray-200 w-10 h-10 flex items-center justify-center mr-3">
+                    <span class="text-gray-700 font-medium" id="customerInitial">V</span>
+                </div>
+                <div>
+                    <p class="text-sm font-medium" id="socialProofText"></p>
+                    <p class="text-xs text-gray-500" id="socialProofTime"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" class="lightbox-content" src="" alt="">
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center overflow-hidden gradient-bg">
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <img src="https://i.pinimg.com/1200x/6a/ef/73/6aef7395be0a545e797998b6d6baddd6.jpg" alt="Waterproof Outdoor Utility Vest" class="absolute w-full h-full object-cover">
+        
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Waterproof Outdoor Utility Vest</h1>
+            <p class="text-xl md:text-2xl text-champagne-300 mb-8">Perlindungan Terbaik untuk Aktivitas Luar Ruangan</p>
+            
+            <div class="glassmorphism rounded-lg p-6 inline-block max-w-2xl">
+                <div class="flex justify-center items-center mb-4">
+                    <span class="text-3xl font-bold text-gold-500 mr-4">Rp195.350</span>
+                    <span class="text-xl text-gray-300 price-original">Rp390.700</span>
+                    <span class="ml-4 bg-red-500 text-white text-sm px-2 py-1 rounded">50% OFF</span>
+                </div>
+                
+                <div class="mb-6">
+                    <div class="flex justify-center space-x-2 mb-4">
+                        <div class="bg-white bg-opacity-20 text-white px-4 py-2 rounded-full text-sm">✓ Garansi 1 Tahun</div>
+                        <div class="bg-white bg-opacity-20 text-white px-4 py-2 rounded-full text-sm">✓ Gratis Ongkir</div>
+                        <div class="bg-white bg-opacity-20 text-white px-4 py-2 rounded-full text-sm">✓ COD Seluruh Indonesia</div>
+                    </div>
+                </div>
+                
+                <a href="#order" class="gold-bg hover:bg-opacity-90 text-black font-bold py-3 px-8 rounded-full inline-block transition-all transform hover:scale-105">
+                    PESAN SEKARANG
+                </a>
+            </div>
+        </div>
+        
+        <div class="absolute bottom-10 left-0 right-0 text-center">
+            <a href="#features" class="text-white animate-bounce inline-block">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Mengapa Memilih Rompi Kami?</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all">
+                    <div class="text-gold-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Bahan NPC Premium</h3>
+                    <p class="text-gray-600">Terbuat dari bahan NPC berkualitas tinggi yang tahan air dan awet digunakan untuk berbagai aktivitas outdoor.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all">
+                    <div class="text-gold-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Resleting Reystic Original</h3>
+                    <p class="text-gray-600">Dilengkapi dengan resleting Zipper Reystic original yang halus dan tahan lama.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all">
+                    <div class="text-gold-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Saku Dalam Fungsional</h3>
+                    <p class="text-gray-600">Inside pocket yang luas dan aman untuk menyimpan barang berharga selama beraktivitas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Gallery -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Galeri Produk</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 product-gallery">
+                <div class="overflow-hidden rounded-lg">
+                    <img src="https://cdn.shopify.com/s/files/1/0617/7279/1921/files/spp_20250520230329_93e2ab1101e25fff4dd4582ee4996175.gif" alt="Rompi Waterproof" class="w-full h-auto cursor-pointer" onclick="openLightbox(this.src)">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="https://cdn.shopify.com/s/files/1/0617/7279/1921/files/spp_20250520230340_e0d206bd1f914cd6537077d21b684779.jpg" alt="Rompi Waterproof" class="w-full h-auto cursor-pointer" onclick="openLightbox(this.src)">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="https://cdn.shopify.com/s/files/1/0617/7279/1921/files/spp_20250520230345_8c7edc525e58d7bfdb231e755d96e95e.jpg" alt="Rompi Waterproof" class="w-full h-auto cursor-pointer" onclick="openLightbox(this.src)">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="https://cdn.shopify.com/s/files/1/0617/7279/1921/files/spp_20250520230351_8959c9c3bb5d0d19e71c1d6dc4a1c382.jpg" alt="Rompi Waterproof" class="w-full h-auto cursor-pointer" onclick="openLightbox(this.src)">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="https://cdn.shopify.com/s/files/1/0617/7279/1921/files/spp_20250520230357_b8dff8a8527b70cacc6a1a29b031a40f.jpg" alt="Rompi Waterproof" class="w-full h-auto cursor-pointer" onclick="openLightbox(this.src)">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="https://cdn.shopify.com/s/files/1/0617/7279/1921/files/spp_20250520230402_2b7c541399e36316cc77869cdeb30214.jpg" alt="Rompi Waterproof" class="w-full h-auto cursor-pointer" onclick="openLightbox(this.src)">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="https://cdn.shopify.com/s/files/1/0617/7279/1921/files/spp_20250520230413_24d9061373d1c690a767d0e5295e1899.jpg" alt="Rompi Waterproof" class="w-full h-auto cursor-pointer" onclick="openLightbox(this.src)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Size Guide -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Panduan Ukuran</h2>
+            
+            <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="p-8">
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Ukuran</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Panjang</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Lebar</th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white divide-y divide-gray-200">
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">M</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">67cm</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">52cm</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">L</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">69cm</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">54cm</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">XL</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">71cm</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">56cm</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">XXL</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">73cm</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">58cm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Apa Kata Pelanggan Kami?</h2>
+            
+            <div class="relative">
+                <div id="testimonialCarousel" class="carousel flex overflow-x-auto snap-x snap-mandatory gap-6 pb-8 scrollbar-hide" style="scroll-snap-type: x mandatory;">
+                    <!-- Testimonial 1 -->
+                    <div class="carousel-item snap-start flex-shrink-0">
+                        <div class="bg-gray-50 p-6 rounded-xl h-full">
+                            <div class="flex items-center mb-4">
+                                <img src="https://i.pinimg.com/1200x/b8/69/2f/b8692f00fbf6f50f956989cf9c574507.jpg" alt="farikanuranisaa" class="profile-img rounded-full mr-3">
+                                <div>
+                                    <h4 class="font-bold">farikanuranisaa</h4>
+                                    <div class="star-rating">
+                                         ⭐⭐⭐⭐⭐
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-4">"Waterproof-nya bukan kaleng-kaleng, kehujanan pun tetap kering."</p>
+                            <img src="https://img.trustoo.io/pro/68196958460/2025/7/4/z7anh2h8DJ.jpg?x-oss-process=style/trustoo_card_small" alt="Testimoni farikanuranisaa" class="testimonial-img rounded" onclick="openLightbox(this.src)">
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="carousel-item snap-start flex-shrink-0">
+                        <div class="bg-gray-50 p-6 rounded-xl h-full">
+                            <div class="flex items-center mb-4">
+                                <img src="https://i.pinimg.com/736x/dd/6c/cd/dd6ccd05d76c3e9c207ec493e9da4511.jpg" alt="teheksa" class="profile-img rounded-full mr-3">
+                                <div>
+                                    <h4 class="font-bold">teheksa</h4>
+                                    <div class="star-rating">
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-4">"Materialnya tebal tapi tetap adem dipakai, nggak bikin gerah."</p>
+                            <img src="https://img.trustoo.io/pro/68196958460/2025/7/4/kN8tWb6Yj4.jpg?x-oss-process=style/trustoo_card_small" alt="Testimoni teheksa" class="testimonial-img rounded" onclick="openLightbox(this.src)">
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="carousel-item snap-start flex-shrink-0">
+                        <div class="bg-gray-50 p-6 rounded-xl h-full">
+                            <div class="flex items-center mb-4">
+                                <img src="https://i.pinimg.com/736x/3b/95/94/3b959469ef22854abb65da936a062227.jpg" alt="inyomanyudiasa" class="profile-img rounded-full mr-3">
+                                <div>
+                                    <h4 class="font-bold">inyomanyudiasa</h4>
+                                    <div class="star-rating">
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-4">"Dipakai naik gunung atau mancing tetap nyaman. Kantongnya banyak dan fungsional!"</p>
+                            <img src="https://img.trustoo.io/pro/68196958460/2025/7/4/4aD6ZnPkhE.jpg?x-oss-process=style/trustoo_card_small" alt="Testimoni inyomanyudiasa" class="testimonial-img rounded" onclick="openLightbox(this.src)">
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 4 -->
+                    <div class="carousel-item snap-start flex-shrink-0">
+                        <div class="bg-gray-50 p-6 rounded-xl h-full">
+                            <div class="flex items-center mb-4">
+                                <img src="https://i.pinimg.com/1200x/c6/1f/6d/c61f6d8760bddeda60171b20c6a9f44c.jpg" alt="kitaersadakerina" class="profile-img rounded-full mr-3">
+                                <div>
+                                    <h4 class="font-bold">kitaersadakerina</h4>
+                                    <div class="star-rating">
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-4">"Rompi ini keren banget! Bahannya kuat dan benar-benar tahan air."</p>
+                            <img src="https://img.trustoo.io/pro/68196958460/2025/7/4/DhCyXXf2yD.jpg?x-oss-process=style/trustoo_card_small" alt="Testimoni kitaersadakerina" class="testimonial-img rounded" onclick="openLightbox(this.src)">
+                        </div>
+                    </div>
+                </div>
+                
+                <button id="prevTestimonial" class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-white rounded-full p-2 shadow-md hover:bg-gray-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+                <button id="nextTestimonial" class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 bg-white rounded-full p-2 shadow-md hover:bg-gray-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="flex justify-center mt-6 space-x-2" id="testimonialDots">
+                <button class="w-3 h-3 rounded-full bg-gray-300" data-index="0"></button>
+                <button class="w-3 h-3 rounded-full bg-gray-300" data-index="1"></button>
+                <button class="w-3 h-3 rounded-full bg-gray-300" data-index="2"></button>
+                <button class="w-3 h-3 rounded-full bg-gray-300" data-index="3"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="py-16 bg-gradient-to-b from-gray-100 to-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Pesan Sekarang</h2>
+            
+            <div class="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div>
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                        <img src="https://welfareis.com/cdn/shop/files/6f6dfe186334f382421d1e6f7e1c488d_644cf7be-39ef-4ddb-8a18-aa6c7b84eadb.jpg?v=1748587962&width=493" alt="Waterproof Outdoor Utility Vest" class="w-full h-auto">
+                    </div>
+                    
+                    <div class="mt-6 bg-white rounded-xl shadow-lg p-6">
+                        <h3 class="text-xl font-bold mb-4">Detail Harga</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between">
+                                <span>Harga Normal</span>
+                                <span class="price-original">Rp390.700</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Diskon</span>
+                                <span class="text-red-500 font-bold">-50%</span>
+                            </div>
+                            <div class="flex justify-between border-t border-gray-200 pt-3">
+                                <span class="font-bold">Harga Promo</span>
+                                <span class="text-2xl font-bold text-gold-500">Rp195.350</span>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6">
+                            <div class="flex items-center mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span>Gratis Ongkir ke Seluruh Indonesia</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span>Bayar di Tempat (COD) Tersedia</span>
+                            </div>
+                            <div class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span>Garansi 1 Tahun</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="bg-white rounded-xl shadow-lg p-6">
+                        <h3 class="text-xl font-bold mb-6">Form Pemesanan</h3>
+                        
+                        <!-- OrderOnline Embed -->
+                        <div class="ooef">
+                            <form class="orderonline-embed-form" data-username="nava" data-product-slug="waterproof-outdoor-utility-vest" data-product-id="68919381bd4713ea8d05cd48" id="oo-embed-form-waterproof-outdoor-utility-vest-7117" data-origin="orderonline">
+                                <div class="ooef-loader"><style>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style><div aria-live="polite" role="status"><div>Loading...</div></div></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Pertanyaan yang Sering Diajukan</h2>
+            
+            <div class="max-w-3xl mx-auto space-y-4">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
+                        <h3 class="font-bold">Berapa lama waktu pengiriman?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">Waktu pengiriman bervariasi tergantung lokasi Anda, biasanya membutuhkan waktu 2-5 hari kerja setelah pemesanan dikonfirmasi.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
+                        <h3 class="font-bold">Apakah produk ini original?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">Ya, produk kami 100% original dengan bahan berkualitas tinggi dan jahitan yang rapi. Kami menggunakan bahan NPC premium dan resleting Reystic original.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
+                        <h3 class="font-bold">Bagaimana cara mengetahui ukuran yang tepat?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">Anda bisa melihat panduan ukuran di atas atau menghubungi kami via WhatsApp untuk konsultasi ukuran. Kami akan dengan senang hati membantu Anda memilih ukuran yang tepat.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
+                        <h3 class="font-bold">Apakah bisa retur atau refund?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">Kami menerima retur atau refund jika produk cacat atau tidak sesuai pesanan. Silakan hubungi kami dalam waktu 3 hari setelah produk diterima untuk proses retur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky CTA -->
+    <div id="stickyCta" class="sticky-cta bg-white shadow-lg py-3 px-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                <p class="font-bold">Waterproof Outdoor Utility Vest</p>
+                <div class="flex items-center">
+                    <span class="text-lg font-bold text-gold-500 mr-2">Rp195.350</span>
+                    <span class="text-sm text-gray-500 price-original">Rp390.700</span>
+                </div>
+            </div>
+            <a href="#order" class="gold-bg hover:bg-opacity-90 text-black font-bold py-2 px-6 rounded-full transition-all">
+                PESAN SEKARANG
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Lightbox functionality
+        function openLightbox(src) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            lightboxImg.src = src;
+            lightbox.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        document.getElementById('lightbox').addEventListener('click', function(e) {
+            if (e.target === this || e.target.className === 'lightbox-close') {
+                closeLightbox();
+            }
+        });
+
+        // FAQ toggle
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('svg');
+                
+                if (content.classList.contains('hidden')) {
+                    content.classList.remove('hidden');
+                    icon.classList.add('rotate-180');
+                } else {
+                    content.classList.add('hidden');
+                    icon.classList.remove('rotate-180');
+                }
+            });
+        });
+
+        // Testimonial carousel
+        let currentTestimonial = 0;
+        const testimonials = document.querySelectorAll('.carousel-item');
+        const dots = document.querySelectorAll('#testimonialDots button');
+        
+        function showTestimonial(index) {
+            const carousel = document.getElementById('testimonialCarousel');
+            const itemWidth = testimonials[0].offsetWidth;
+            
+            carousel.scrollTo({
+                left: index * itemWidth,
+                behavior: 'smooth'
+            });
+            
+            // Update active dot
+            dots.forEach((dot, i) => {
+                if (i === index) {
+                    dot.classList.remove('bg-gray-300');
+                    dot.classList.add('bg-gold-500');
+                } else {
+                    dot.classList.add('bg-gray-300');
+                    dot.classList.remove('bg-gold-500');
+                }
+            });
+            
+            currentTestimonial = index;
+        }
+        
+        document.getElementById('prevTestimonial').addEventListener('click', () => {
+            currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
+            showTestimonial(currentTestimonial);
+        });
+        
+        document.getElementById('nextTestimonial').addEventListener('click', () => {
+            currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+            showTestimonial(currentTestimonial);
+        });
+        
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                showTestimonial(index);
+            });
+        });
+        
+        // Auto-scroll testimonials
+        let testimonialInterval = setInterval(() => {
+            currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+            showTestimonial(currentTestimonial);
+        }, 5000);
+        
+        // Pause auto-scroll on hover
+        const carouselContainer = document.getElementById('testimonialCarousel');
+        carouselContainer.addEventListener('mouseenter', () => {
+            clearInterval(testimonialInterval);
+        });
+        
+        carouselContainer.addEventListener('mouseleave', () => {
+            testimonialInterval = setInterval(() => {
+                currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+                showTestimonial(currentTestimonial);
+            }, 5000);
+        });
+
+        // Social proof notifications
+        const customers = ['Vina', 'Dina', 'Kartika', 'Lestari', 'Putri', 'Maya Sari', 'Rani', 'Permata', 'Lestari F'];
+        const cities = ['Jakarta', 'Surabaya', 'Bandung', 'Medan', 'Bekasi', 'Tangerang', 'Depok', 'Semarang'];
+        
+        function showSocialProof() {
+            const randomCustomer = customers[Math.floor(Math.random() * customers.length)];
+            const randomCity = cities[Math.floor(Math.random() * cities.length)];
+            const minutesAgo = Math.floor(Math.random() * 15) + 1;
+            
+            document.getElementById('customerInitial').textContent = randomCustomer.charAt(0);
+            document.getElementById('socialProofText').textContent = `${randomCustomer} dari ${randomCity} baru saja memesan Waterproof Outdoor Utility Vest`;
+            document.getElementById('socialProofTime').textContent = `${minutesAgo} menit yang lalu`;
+            
+            const socialProof = document.getElementById('socialProof');
+            socialProof.classList.remove('hidden');
+            
+            // Auto-hide after 5 seconds
+            setTimeout(() => {
+                socialProof.classList.add('hidden');
+            }, 5000);
+        }
+        
+        // Show first notification after 10 seconds
+        setTimeout(() => {
+            showSocialProof();
+            
+            // Then show every 10 seconds
+            setInterval(showSocialProof, 10000);
+        }, 10000);
+        
+        // Pause on hover
+        document.getElementById('socialProof').addEventListener('mouseenter', () => {
+            clearTimeout(socialProofTimeout);
+        });
+        
+        document.getElementById('socialProof').addEventListener('mouseleave', () => {
+            socialProofTimeout = setTimeout(() => {
+                document.getElementById('socialProof').classList.add('hidden');
+            }, 5000);
+        });
+
+        // Sticky CTA on scroll
+        window.addEventListener('scroll', () => {
+            const stickyCta = document.getElementById('stickyCta');
+            if (window.scrollY > 300) {
+                stickyCta.classList.add('show');
+            } else {
+                stickyCta.classList.remove('show');
+            }
+        });
+
+        // Initialize OrderOnline embed
+        if (typeof xLogError != 'function') {
+            var xLogError = function (error) {
+                var req = new XMLHttpRequest();
+                var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack });
+                var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                req.open('POST', 'https://api.orderonline.id/log', true);
+                req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                req.send(params);
+            };
+        }
+
+        try {
+            if (typeof xEmbedScript != 'function') {
+                var xEmbedScript = function () {
+                    !function(w, d, e, v, id, t, s) {
+                        if (d.getElementById(id)) return;
+                        t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                        s = d.getElementsByTagName(e)[0];
+                        s.parentNode.insertBefore(t, s);
+                    }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                };
+            }
+            if (typeof xEmbedInit != 'function') {
+                var xEmbedInit = function (w, n) {
+                    if (w.ooe) return;
+                    n = w.ooe = function() {
+                        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    };
+                    if (!w._ooe) w._ooe = n;
+                    n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                };
+            }
+            xEmbedInit(window);
+            ooe('setup', 'redirect', 'https://nava.orderonline.id');
+            ooe('init', '5f119cd08dcbdb2737678706', '68919381bd4713ea8d05cd48', '68919381bd4713ea8d05cd49', 'oo-embed-form-waterproof-outdoor-utility-vest-7117', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":true});
+            if (!window.jQuery) {
+                !function(w, d, e, v, id, t, s) {
+                    if (d.getElementById(id)) return;
+                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                    t.addEventListener('load', xEmbedScript);
+                    s = d.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t, s);
+                }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+            } else {
+                xEmbedScript();
+            }
+        } catch (e) {
+            xLogError(e);
+            throw e;
+        }
+    </script>
+</body>
+</html>
